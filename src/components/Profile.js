@@ -31,13 +31,10 @@ const Profile = () => {
 const styles = StyleSheet.create({
   card: {
     width: 300,
-    backgroundColor: "#fff",
+    backgroundColor: "white",
     borderRadius: 16,
     padding: 20,
     alignItems: "center",
-    shadowColor: "#000",
-    shadowOpacity: 0.2,
-    shadowRadius: 8,
     elevation: 5,
   },
   profileImage: {
@@ -72,7 +69,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 12,
-    color: "gray",
+    color: "gray ",
   },
 });
 
